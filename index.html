@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 99%;
+        height: 95%;
+        text-align: center;
+        font-family: 'Roboto Condensed', serif;
+      }
+      .black {
+        color: white;
+        background: black;
+      }
+      #time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .counter {
+        width: 50%;
+      }
+      #name {
+        font-size: 120px;
+        margin-bottom: 40px;
+      }
+      #separator {
+        margin: 0 50px;
+      }
+    </style>
+  </head>
+  <body id='bod'>
+   <div>
+     <div id='name'>
+       Zhenya
+     </div>
+     <div id='time'>
+       <div class='counter' id='white_time'>0:00</div>
+       <div id='separator'>|</div>
+       <div class='counter' id='black_time'>0:00</div>
+     </div>
+     <div id='steps'></div>
+     <div id='random_step'></div>
+   </div>
+   <script src="./timer.js" type="text/javascript"></script>
+  </body>
+</html>
